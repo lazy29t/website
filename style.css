@@ -57,8 +57,13 @@ body{
 .icons{
     padding: 30px;
     color-scheme: #fff;
-    align-items: flex-end;
-    
+    align-items: flex-end; 
+    cursor: pointer;
+}
+
+.icons:hover{
+    color: rgb(31, 240, 255);
+    background-color: rgb(31, 240, 255);
 }
 
 .icon1{
