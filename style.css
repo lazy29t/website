@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@500&display=swap');
+
 body{
     background-color: #000;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 459;
+    font-style: normal;
+    
 }
 
 .profile{
     margin: auto;
-    padding-top: 150px;
+    padding-top: 200px;
     justify-content: center;
     display:grid;
     place-items: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .icono{
@@ -35,6 +43,7 @@ body{
     border-color: none;
     height: 60px;
     width: 150px;
+    font-size:large;
     border-radius: 15px;
     color: #fff;
     background-color: #0ea6c4;
@@ -57,17 +66,18 @@ body{
 .icons{
     padding: 30px;
     color-scheme: #fff;
-    align-items: flex-end; 
+    align-items: flex-end;
+
     
 }
 
 
 .icon1{
     color: #fff;
+    cursor: pointer;
 }
-.icon2{
-    color: #fff;
-}
-.icon3{
-    color: #fff;
+
+.icon1:hover{
+    color: aqua;
+    transform: scale(1.1)
 }
